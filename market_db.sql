@@ -7,7 +7,7 @@
 # 구매 테이블(buy)
 # : 순번, 아이디, 물품명, 분류, 단가, 수량
 
--- drop database if exists market_db;
+drop database if exists market_db;
 create database market_db;
 
 -- use
