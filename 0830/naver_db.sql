@@ -32,7 +32,6 @@ create table member -- 회원 테이블
   debut_date    DATE NULL  -- 데뷔 일자
 );
 
-
 # 구매 테이블(buy)
 
 # 순번 num int not null 기본키(PK), 자동 증가
@@ -59,4 +58,4 @@ INSERT INTO member VALUES('WMN', '여자친구', 6, '경기', '031', '33333333',
 
 INSERT INTO buy VALUES( NULL, 'BLK', '지갑', NULL, 30, 2);
 INSERT INTO buy VALUES( NULL, 'BLK', '맥북프로', '디지털', 1000, 1);
-INSERT INTO buy VALUES( NULL, 'APN', '아이폰', '디지털', 200, 1);
+INSERT INTO buy VALUES( NULL, 'APN', '아이폰', '디지털', 200, 1); -- 오류o
